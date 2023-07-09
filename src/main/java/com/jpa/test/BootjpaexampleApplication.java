@@ -51,7 +51,8 @@ public class BootjpaexampleApplication {
 //		   System.out.println(user);
 //	   });
 	
-		 System.out.println("hello");
+		 System.out.println("hello world");
+		 
 	}
 
 }

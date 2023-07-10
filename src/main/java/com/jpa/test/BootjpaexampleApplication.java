@@ -50,7 +50,13 @@ public class BootjpaexampleApplication {
 //	   users.forEach(user->{
 //		   System.out.println(user);
 //	   });
-	
+		
+		//JPQL AND NATIVE QUERIES
+		//Iterable<User> users=userRepository.getAllUser();
+		Iterable<User> users=userRepository.getUsers();
+				 users.forEach(user->{
+				   System.out.println(user);
+				   });
 		 System.out.println("hello world");
 		 
 	}
